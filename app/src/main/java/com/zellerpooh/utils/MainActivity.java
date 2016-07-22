@@ -3,7 +3,9 @@ package com.zellerpooh.utils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-
+/**
+ * 测试activity
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
