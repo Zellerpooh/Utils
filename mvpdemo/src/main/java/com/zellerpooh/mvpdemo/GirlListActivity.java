@@ -17,7 +17,7 @@ public class GirlListActivity extends AppCompatActivity implements IGirlView {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_girl_list);
         listView= (ListView) findViewById(R.id.listView);
-        new GirlPresenter(this).fetch();
+        new GirlPresenter2(this).fetch();
     }
 
     @Override
