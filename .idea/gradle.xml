@@ -10,28 +10,20 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/autolayout" />
+            <option value="$PROJECT_DIR$/baseadapterrecyclerview" />
             <option value="$PROJECT_DIR$/commonadapter" />
+            <option value="$PROJECT_DIR$/commonrecyclerview" />
             <option value="$PROJECT_DIR$/daogenerator" />
             <option value="$PROJECT_DIR$/greendaodemo" />
             <option value="$PROJECT_DIR$/multiplethreaddownload" />
             <option value="$PROJECT_DIR$/mvpdemo" />
             <option value="$PROJECT_DIR$/servicedemo" />
+            <option value="$PROJECT_DIR$/webview" />
             <option value="$PROJECT_DIR$/xutils_library" />
           </set>
         </option>
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/commonadapter" />
-            <option value="$PROJECT_DIR$/daogenerator" />
-            <option value="$PROJECT_DIR$/greendaodemo" />
-            <option value="$PROJECT_DIR$/multiplethreaddownload" />
-            <option value="$PROJECT_DIR$/mvpdemo" />
-            <option value="$PROJECT_DIR$/servicedemo" />
-            <option value="$PROJECT_DIR$/xutils_library" />
-          </set>
-        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

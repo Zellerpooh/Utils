@@ -74,7 +74,6 @@ public abstract class BaseQuickAdapter<T, H extends BaseAdapterHelper> extends
         this.data = data == null ? new ArrayList<T>() : new ArrayList<T>(data);
         this.context = context;
     }
-
     @Override
     public int getCount()
     {
