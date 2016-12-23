@@ -1,0 +1,37 @@
+package com.jinkworld.downloadmanager;
+
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ScrollView;
+
+import com.jinkworld.downloadmanager.aige.lesson1.Lesson1Activity;
+import com.jinkworld.downloadmanager.pie.PieActivity;
+
+public class MainActivity extends AppCompatActivity {
+    public static final String load_url = "http://qiniu-app-cdn.pgyer.com/ce0346232b634a6cb1f39ec16f4f2b75.apk?e=1479175852&attname=app-debug.apk&token=6fYeQ7_TVB5L0QSzosNFfw2HU8eJhAirMF5VxV9G:6J3UdcR77rxqFbC2-AYU-zM4kCk=";
+    private ScrollView scrollView;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        scrollView = (ScrollView) findViewById(R.id.scrollView);
+    }
+
+    public void download(View view) {
+        DownloadService downloadService = new DownloadService(this);
+        downloadService.download(load_url);
+    }
+
+    public void lesson1(View view) {
+        Intent intent = new Intent(this, Lesson1Activity.class);
+        startActivity(intent);
+    }
+
+    public void pieView(View view) {
+        Intent intent = new Intent(this, PieActivity.class);
+        startActivity(intent);
+    }
+}

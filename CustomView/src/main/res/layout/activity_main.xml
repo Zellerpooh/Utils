@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jinkworld.downloadmanager.MainActivity">
+
+    <com.jinkworld.downloadmanager.widget.ReboundScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="download"
+                android:text="download" />
+
+            <com.jinkworld.downloadmanager.widget.CleanEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/lesson1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="lesson1"
+                android:text="lesson1" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="download" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="pieView"
+                android:text="PieView" />
+
+        </LinearLayout>
+    </com.jinkworld.downloadmanager.widget.ReboundScrollView>
+</LinearLayout>
