@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.ScrollView;
 
 import com.jinkworld.downloadmanager.aige.lesson1.Lesson1Activity;
+import com.jinkworld.downloadmanager.lesson5.Lesson5Activity;
+import com.jinkworld.downloadmanager.lesson6.Lesson6Activity;
+import com.jinkworld.downloadmanager.lesson7.Lesson7Activity;
 import com.jinkworld.downloadmanager.pie.PieActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -32,6 +35,21 @@ public class MainActivity extends AppCompatActivity {
 
     public void pieView(View view) {
         Intent intent = new Intent(this, PieActivity.class);
+        startActivity(intent);
+    }
+
+    public void lesson5(View v) {
+        Intent intent = new Intent(this, Lesson5Activity.class);
+        startActivity(intent);
+    }
+
+    public void lesson6(View view) {
+        Intent intent = new Intent(this, Lesson6Activity.class);
+        startActivity(intent);
+    }
+
+    public void lesson7(View view) {
+        Intent intent = new Intent(this, Lesson7Activity.class);
         startActivity(intent);
     }
 }

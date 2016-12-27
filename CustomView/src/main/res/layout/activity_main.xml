@@ -46,7 +46,21 @@
                 android:layout_height="wrap_content"
                 android:onClick="pieView"
                 android:text="PieView" />
-
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="lesson5"
+                android:text="lesson5" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="lesson6"
+                android:text="lesson6" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="lesson7"
+                android:text="lesson7" />
         </LinearLayout>
     </com.jinkworld.downloadmanager.widget.ReboundScrollView>
 </LinearLayout>
