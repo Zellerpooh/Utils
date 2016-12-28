@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/commonrecyclerview/commonrecyclerview.iml" filepath="$PROJECT_DIR$/commonrecyclerview/commonrecyclerview.iml" />
       <module fileurl="file://$PROJECT_DIR$/daogenerator/daogenerator.iml" filepath="$PROJECT_DIR$/daogenerator/daogenerator.iml" />
       <module fileurl="file://$PROJECT_DIR$/greendaodemo/greendaodemo.iml" filepath="$PROJECT_DIR$/greendaodemo/greendaodemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
       <module fileurl="file://$PROJECT_DIR$/multiplethreaddownload/multiplethreaddownload.iml" filepath="$PROJECT_DIR$/multiplethreaddownload/multiplethreaddownload.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvpdemo/mvpdemo.iml" filepath="$PROJECT_DIR$/mvpdemo/mvpdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/servicedemo/servicedemo.iml" filepath="$PROJECT_DIR$/servicedemo/servicedemo.iml" />

@@ -15,7 +15,6 @@ public class Lesson6Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lesson6);
         radarView = (RadarView) findViewById(R.id.radarView);
-
     }
 
     public void changeClick(View view) {

@@ -1,1 +1,1 @@
-include ':app', ':mvpdemo', ':servicedemo', ':greendaodemo', ':daogenerator', ':multiplethreaddownload', ':commonadapter', ':xutils_library', ':commonrecyclerview', ':baseadapterrecyclerview', ':webview', ':autolayout', ':CustomView'
+include ':app', ':mvpdemo', ':servicedemo', ':greendaodemo', ':daogenerator', ':multiplethreaddownload', ':commonadapter', ':xutils_library', ':commonrecyclerview', ':baseadapterrecyclerview', ':webview', ':autolayout', ':CustomView', ':library'
